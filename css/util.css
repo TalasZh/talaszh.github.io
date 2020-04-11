@@ -1,0 +1,163 @@
+/*//////////////////////////////////////////////////////////////////
+[ REBOOT ]*/
+*,
+*:before,
+*:after {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*---------------------------------------------*/
+a:focus {outline: none;}
+a, a:hover {text-decoration: none;}
+
+.p-l-15 {
+    padding-left: 15px;
+}
+
+.p-r-15 {
+    padding-right: 15px;
+}
+
+.p-t-30 {
+    padding-top: 30px;
+}
+
+.p-b-50 {
+    padding-bottom: 50px;
+}
+
+.p-l-75 {
+    padding-left: 75px;
+}
+
+.p-r-60 {
+    padding-right: 60px;
+}
+
+.p-b-165 {
+    padding-bottom: 165px;
+}
+
+.m-r-30 {
+    margin-right: 30px;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-r-5 {
+    margin-right: 5px;
+}
+
+.m-b-3 {
+    margin-bottom: 3px;
+}
+
+.m-t-3 {
+    margin-top: 3px;
+}
+
+.p-b-60 {
+    padding-bottom: 60px;
+}
+
+.m-lr-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trans-04 {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ POSITION ]*/
+
+/*------------------------------------------------------------------
+[ Display ]*/
+
+.flex-w,
+.flex-l,
+.flex-r,
+.flex-c,
+.flex-sa,
+.flex-sb,
+.flex-t,
+.flex-b,
+.flex-m,
+.flex-str,
+.flex-c-m,
+.flex-c-t,
+.flex-c-b,
+.flex-c-str,
+.flex-l-m,
+.flex-r-m,
+.flex-sa-m,
+.flex-sb-m,
+.flex-col-l,
+.flex-col-r,
+.flex-col-c,
+.flex-col-str,
+.flex-col-t,
+.flex-col-b,
+.flex-col-m,
+.flex-col-sb,
+.flex-col-sa,
+.flex-col-c-m,
+.flex-col-l-m,
+.flex-col-r-m,
+.flex-col-str-m,
+.flex-col-c-t,
+.flex-col-c-b,
+.flex-col-c-sb,
+.flex-col-c-sa,
+.flex-row,
+.flex-row-rev,
+.flex-col,
+.flex-col-rev,
+.dis-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.txt-center {text-align: center;}
+
+/*------------------------------------------------------------------
+[ Flex ]*/
+/* ------------------------------------ */
+.flex-w {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+.flex-sb-m {
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+/* ------------------------------------ */
+.flex-c-m {
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
