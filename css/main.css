@@ -29,6 +29,10 @@
     height: 36px;
 }
 
+.display4 {
+    display: inline-flex;
+}
+
 /*---------------------------------------------*/
 .overlay1 {
     position: relative;
