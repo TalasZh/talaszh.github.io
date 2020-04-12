@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "kg.unisports.mobile",
+    "sha256_cert_fingerprints":
+    ["CA:8A:14:4B:0E:8C:37:69:9B:46:11:22:C1:E2:F3:77:02:06:57:BE:F4:84:54:39:10:AA:74:7E:47:5A:E5:2C"]
+  }
+}]
+
